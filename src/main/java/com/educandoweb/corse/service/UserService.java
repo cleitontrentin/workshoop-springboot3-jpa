@@ -10,7 +10,7 @@ import com.educandoweb.corse.entities.User;
 import com.educandoweb.corse.repositories.UserRepository;
 
 @Service
-public class UserServive {
+public class UserService {
 
 	@Autowired
 	private UserRepository repository;
