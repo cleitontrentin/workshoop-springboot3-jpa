@@ -1,8 +1,8 @@
-package com.educandoweb.corse.entities.enums;
+package com.educandoweb.course.entities.enums;
 
 public enum OrderStatus {
 	
-	WHAITING_PAYMENT(1),
+	WAITING_PAYMENT(1),
 	PAID(2),
 	SHIPPEDD(3),
 	DELIVERED(4),

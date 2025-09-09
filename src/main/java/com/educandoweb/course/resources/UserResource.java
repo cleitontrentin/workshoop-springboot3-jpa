@@ -1,4 +1,4 @@
-package com.educandoweb.corse.resources;
+package com.educandoweb.course.resources;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.educandoweb.corse.entities.User;
-import com.educandoweb.corse.service.UserService;
+import com.educandoweb.course.entities.User;
+import com.educandoweb.course.service.UserService;
 
 @RestController
 @RequestMapping(value = "/Users")
